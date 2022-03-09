@@ -1,0 +1,14 @@
+# -*- coding: cp1251 -*-
+inp = input("¬ведите число: ")
+sett = set()
+for i in inp:
+    sett.add(i)
+
+print(sett)
+inp = input("¬ведите второе число: ")
+sett = set()
+for i in inp:
+    sett.add(i)
+
+print(sett)
+
