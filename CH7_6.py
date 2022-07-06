@@ -1,0 +1,10 @@
+int1=eval(input("Через запятую наст и мним часть: "))
+int2=eval(input("Через запятую наст и мним часть: "))
+comp1 = complex(int1[0],int1[1])
+comp2 = complex(int2[0],int2[1])
+print(comp1+comp2)
+print(comp1-comp2)
+print(comp1*comp2)
+print(comp1/comp2)
+
+print(abs(comp1)) if abs(comp1)>abs(comp2) else print(abs(comp2))
